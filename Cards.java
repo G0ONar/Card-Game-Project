@@ -16,11 +16,11 @@ public class Cards {
         return suit;
     }
 
-    @Override
+    @Override//overides the parent class
     public String toString() {
         return rankToString(rank) + " of " + suitToString(suit);
     }
-//Case means switch
+//case means switch
     private String rankToString(int r) {
         switch (r) {
             case 11: return "Jack";
